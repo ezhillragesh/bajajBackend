@@ -17,7 +17,7 @@ router.get('/bfhl', (req, res) => {
 router.post('/bfhl', (req, res) => {
     const { data } = req.body;
     const user_id = "Ezhill_Ragesh_17062003";
-    const email = "ezhillragesh@gmail.com";
+    const email = "ezhillragesh.kt2021@vitstudent.ac.in";
     const roll_number = "21BBS0100";
 
     if (!data || !Array.isArray(data)) {
